@@ -8,8 +8,9 @@ form.addEventListener('submit',function(e){
     fetch("https://api.github.com/users/"+userName)
     .then((result) => result.json())
     .then((data) => {
-        console.log(data)
-        // document.getElementById('result').innerHTML = "<img src="+data['avatar_url']+" </img>"
+        
+        document.getElementById('photo').innerHTML = "<a target = '_blank' href ='https://github.com/"+data['login']+"'>  <img class='img-fluid w-50 rounded-circle ' src="+data['avatar_url']+" </img> </a>"
+        document.getElementById('info').innerHTML = "<p class='text-center text-light'>"+data['login']+"</p><p class='text-center text-light'>"+data['bio']+"</p>"
     })
 
 })
