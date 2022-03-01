@@ -30,6 +30,13 @@ body{
 .name-user{
         color: #17e976;
 }
+.link-back{
+        text-decoration: none;
+        color: rgb(168, 79, 79);
+}
+.link-back:hover{
+        color: #17e976;
+}
 @media (max-width: 575.98px) { 
         .btn-search{
                 margin-top: 15px;
@@ -53,7 +60,7 @@ body{
     
     @media (min-width: 768px) and (max-width: 991.98px) { 
         .infoArea{
-                padding: 0 150px;
+                padding: 0 50px;
         }
     
      }
@@ -61,12 +68,12 @@ body{
     
     @media (min-width: 992px) and (max-width: 1199.98px) { 
         .infoArea{
-                padding: 0 150px;
+                padding: 0 50px;
         }
     }
     
     @media (min-width: 1200px) { 
         .infoArea{
-                padding: 0 150px;
+                padding: 0 50px;
         }
     }
