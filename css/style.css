@@ -7,3 +7,62 @@ body{
         background: url("../bg.png");
 
 }
+.informate{
+        
+        justify-content: space-around;
+}
+.mainText{
+        font-size: 4rem;
+        font-weight: 900;
+        letter-spacing: -0.05em;
+        color: #aeeac9;
+}
+.infoArea{
+        padding: 0 150px;
+}
+.text-repos{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #7de6ac;
+}
+.text-description{
+        font-weight: 600;
+        color: whitesmoke;
+}
+.name-user{
+        color: #17e976;
+}
+@media (max-width: 575.98px) { 
+        .btn-search{
+                margin-top: 15px;
+                display: block;
+                width: 100%;
+                
+        }
+       
+     }
+    
+    
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .btn-search{
+                margin-top: 15px;
+                display: block;
+                width: 100%;
+                
+        }
+     }
+    
+    
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        
+    
+     }
+    
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        
+    }
+    
+    @media (min-width: 1200px) { 
+        
+    }
